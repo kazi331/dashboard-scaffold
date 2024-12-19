@@ -28,7 +28,8 @@ export default function LoginPage() {
         <Image
           src={placeholderImage(1000, 1000)}
           alt="Image"
-          layout="fill"
+          width={500}
+          height={700}
           className="absolute inset-0 h-full w-full object-cover object-center dark:brightness-[0.2] dark:grayscale"
         />
       </div>
